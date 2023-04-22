@@ -2,6 +2,8 @@
 
 这是一个示例Todo List应用程序，使用Vue.js作为前端框架，Node.js/Express作为后端API，并使用MongoDB作为数据库。
 
+![image](image.png)
+
 ## 功能特点
 
 添加新的todo项
@@ -29,7 +31,7 @@
 
 ```
 git clone https://github.com/IICSC/MyTodo.git
-cd mytodo
+cd your_project
 ```
 
 ​	在终端中进入vue.app目录并安装依赖：
@@ -39,9 +41,10 @@ cd vue.app
 npm install
 ```
 
-​	在终端中安装依赖：
+​	在终端中进入server目录并安装依赖：
 
 ```
+cd ../server
 npm install
 ```
 
@@ -51,9 +54,10 @@ npm install
 mongod
 ```
 
-​	在新的终端中打开server:3000:
+​	在新的终端中打开服务器：
 
 ```
+cd server
 node server.js
 ```
 
@@ -61,7 +65,7 @@ node server.js
 
 ```
 cd ../vue.app
-npm run-script serve
+npm run serve
 ```
 
 打开浏览器并访问“http://localhost:8080/”，即可访问应用程序。
